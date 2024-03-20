@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #403f3f;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+    height: 500px;
+    background-color: #000000;
+    margin-top: 35px;
+}
+
+.container-home {
+    max-width: 1000px; 
+    background-color: #000000;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+    font-size: 5rem;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.form-container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.form-style {
+    display: flex;
+    width: 80%;
+    height: 325px;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    align-items: center;
+    background: linear-gradient(to right, #000000, #898989);
+}
+
+
+.input-field {
+    width: 75%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.input-top {
+    margin-top: 45px;
+}
+.checkbox-field {
+    background-color: #00000000;
+    margin-top: 15px;
+}
+
+.check-input {
+    width: 15px; 
+    height: 15px; 
+}
+
+.checkbox-label {
+    color: #fff;
+    margin: 15px;
+    border: none;
+    background-color: #00000000;
+}
+
+.btn-cadastrar {
+    color: yellow;
+    margin-top: 25px;
+    font-size: 32px;
+    background-color: #00000000;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-ja-tenho-conta {
+    border: none;
+    color: #fff;
+    border: none;
+    background-color: #00000000;
+    cursor: pointer;
+}
+
+.p-color-1 {
+    color: yellow;
+    font-size: 4rem; 
+    text-align: left; 
+    margin: 0;
+    margin-left: 35px;
+    font-family: "Anton", sans-serif;
+}
+
+.p-color-2 {
+    color: #ffffff;
+    font-size: 4rem; 
+    text-align: left;
+    margin: 0; 
+    margin-left: 35px;
+    font-family: "Anton", sans-serif;
+}
+
+.p-color-3 {
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: left;
+    margin: 0; 
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputField {
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    border-radius: 35px;
+    padding-right: 0px; /* Adiciona espaço para a imagem */
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: black;
+    width: 1.4rem;
+}
+
+.titulo-sobre {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-section {
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.about-sec {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    color: #333;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+.text-sobre {
+    margin-bottom: 1rem;
+}
+
+.sobre-btn {
+    background-color: #2e2929;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sobre-btn:hover {
+    background-color: #403a3a8b;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .main-container {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin: auto;
+        height: 700px;
+        background-color: #000000;
+        margin-top: 150px;
+    }
+
+    .form-container {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 50px;
+        height: 300px;
+    }
+
+    .input-top {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-container {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        margin: auto;
+        height: 800px;
+        background-color: #000000;
+        margin-top: 120px;
+    }
+
+    .form-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 50px;
+        height: 300px;
+    }
+
+    .input-top {
+        margin-top: 25px;
+    }
+}

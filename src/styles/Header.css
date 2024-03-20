@@ -1,0 +1,424 @@
+/* Adicionando o sufixo "-admin" a todas as classes */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header nav.open ul {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 90%;
+  background-color: #f8f8f8;
+  z-index: 1000;
+  border-bottom: 2px solid #3333331f;
+  border-radius: 16px;
+}
+
+.header-container {
+  position: relative;
+}
+
+
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header nav.open ul {
+  background-color: #000;
+}
+
+.header nav ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 1rem;
+}
+
+.header nav ul li {
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px; /* Adicionando espaçamento interno */
+}
+
+.header nav ul li a:hover {
+  background-color: #000; /* Mudando a cor de fundo ao passar o mouse */
+  border-radius: 5px; /* Adicionando um pequeno arredondamento de borda */
+}
+
+.header nav ul li a:hover,
+.header nav ul li a:hover {
+  border: 2px solid yellow; /* Mudando a cor da borda ao passar o mouse */
+}
+
+.menu-button {
+  color: #fff;
+  cursor: pointer;
+}
+
+.titulo-esquerda {
+  color: #a61e1e;
+}
+
+.lista-direita {
+  background-color: #000;
+}
+
+.head-1 {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-list-hover {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.header-list-hover:hover {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border: 2px solid yellow;
+}
+
+.titulo-esquerda {
+  color: #a61e1e;
+  font-size: 2.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  background-color: #000;
+  display: flex;
+  margin-right: 5rem;
+}
+
+.menu-button {
+  background-color: #000;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background-color: #090909;
+  color: #fff;
+  z-index: 1000;
+}
+
+@media screen and (min-width: 750px) {
+  .menu-button {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .header {
+    padding: 0;
+    margin-top: 5px;
+  }
+
+
+  .header nav ul {
+    display: none;
+  }
+
+  .header nav ul li {
+    margin: 0;
+    display: block;
+  }
+
+  .header nav.open ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 90%;
+    background-color: #000000;
+    color: #fff;
+    z-index: 1000;
+    border-bottom: 2px solid #3333331f;
+    border-radius: 16px;
+  }
+
+  .head-1 {
+    flex-direction: column;
+    padding: 3px;
+    padding-left: 2px;
+    font-size: 15px;
+  }
+
+  .menu-button {
+    top: 0px;
+    right: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    cursor: pointer;
+    color: #fffffffb;
+    font-size: 2rem;
+  }
+
+  .lista-direita {
+    font-size: 1.5rem;
+    margin-left: 10px;
+
+  }
+
+  .titulo-esquerda {
+    width: 100%;
+    color: #333;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+    background-color: #c3c3c384;
+    border-radius: 100%;
+    padding:1px;
+    max-width: 45px;
+    margin-right: 7px;
+    margin-left: 50px;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  .header nav ul {
+    display: none;
+  }
+
+  .header nav ul li {
+    margin: 0;
+    display: block;
+  }
+
+  .header nav.open ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 90%;
+    background-color: #f8f8f8;
+    z-index: 1000;
+    border-bottom: 2px solid #3333331f;
+    border-radius: 16px;
+  }
+
+  .head-1 {
+    flex-direction: column;
+    padding: 3px;
+    padding-left: 2px;
+    font-size: 15px;
+  }
+
+  .menu-button {
+    top: 0px;
+    right: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.9rem;
+  }
+
+  .lista-direita {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+
+  .titulo-esquerda {
+    width: 100%;
+    color: #333;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    text-decoration: none;
+  }
+ 
+  .logo {
+    width: 100%;
+    height: auto;
+    background-color: #c3c3c384;
+    border-radius: 100%;
+    padding:1px;
+    max-width: 50px;
+    margin-right: 4px;
+    margin-left: 3px;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .header {
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  .header nav ul {
+    display: none;
+  }
+
+  .header nav ul li {
+    margin: 0;
+    display: block;
+  }
+
+  .header nav.open ul {
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 90%;
+    background-color: #f8f8f8;
+    z-index: 1000;
+    border-bottom: 2px solid #3333331f;
+    border-radius: 16px;
+  }
+
+  .head-1 {
+    flex-direction: column;
+    padding: 3px;
+    padding-left: 2px;
+    font-size: 15px;
+  }
+
+  .menu-button {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 2rem;
+  }
+
+  .lista-direita {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+  .titulo-esquerda {
+    width: 100%;
+    color: #333;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+    background-color: #c3c3c384;
+    border-radius: 100%;
+    padding:1px;
+    max-width: 40px;
+    margin-right: 4px;
+    margin-left: 3px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .header {
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  .header nav ul {
+    display: none;
+  }
+
+  .header nav ul li {
+    margin: 5px 0;
+    display: block;
+  }
+
+  .header nav.open ul {
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 90%;
+    background-color: #f8f8f8;
+    z-index: 1000;
+    border-bottom: 2px solid #3333331f;
+    border-radius: 16px;
+  }
+
+  .head-1 {
+    flex-direction: column;
+    padding: 3px;
+    padding-left: 2px;
+    font-size: 15px;
+  }
+
+  .menu-button {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.8rem;
+  }
+
+  .lista-direita {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+
+  .titulo-esquerda {
+    width: 100%;
+    color: #333;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+    background-color: #c3c3c384;
+    border-radius: 100%;
+    padding:1px;
+    max-width: 40px;
+    margin-right: 4px;
+    margin-left: 3px;
+    
+  }
+}
+
