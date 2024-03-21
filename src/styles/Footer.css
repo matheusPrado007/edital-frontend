@@ -6,16 +6,51 @@
   bottom: 0px;
   width: 100%;
   display: flex;
-  justify-content: center; /* Adiciona centralização horizontal */
-  align-items: center; /* Adiciona centralização vertical */
+  justify-content: center;
+  /* Adiciona centralização horizontal */
+  align-items: center;
+  /* Adiciona centralização vertical */
   z-index: 1;
-  font-size: 1.5rem ;
+  font-size: 1.5rem;
+  background-color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (max-width: 600px) {
-  .footer-content {
-    flex-direction: column;
-    text-align: center; /* Centraliza o texto quando a largura da tela é menor que 600px */
-  }
+.icon-facebook {
+  border-radius: 15%;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  color: yellow;
 }
+
+.icon-instagram {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+
+.icon-twitter {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  color: yellow;
+}
+
+
+.footer-content {
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.text-edital {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {}

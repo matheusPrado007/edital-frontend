@@ -33,9 +33,9 @@ const Home: React.FC = () => {
       <div className="main-container">
         <div className="text-container">
           <p className="p-color-1">
-            PREPARE-SE PARA
+            PREPARE-SE
             <br />
-            VIVER DA
+            PARA VIVER DA
           </p>
           <p className="p-color-2">
             SUA ARTE.

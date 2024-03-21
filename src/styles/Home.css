@@ -34,7 +34,7 @@
 
 .form-container {
     display: flex;
-    width: 70%;
+    width: 40%;
     margin: auto;
     align-items: center;
     flex-direction: column;
@@ -43,7 +43,7 @@
 
 .form-style {
     display: flex;
-    width: 80%;
+    width: 90%;
     height: 325px;
     flex-direction: column;
     padding: 5px;
@@ -106,7 +106,7 @@
 
 .p-color-1 {
     color: yellow;
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: left;
     margin: 0;
     margin-left: 35px;
@@ -204,11 +204,9 @@
     background-color: #403a3a8b;
 }
 
-
 .setas {
     width: 100px;
-    height: 60px;
-
+    height: 85px;
 }
 
 @media screen and (max-width: 768px) {
