@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -94,6 +97,11 @@
     background-color: #00000000;
     border: none;
     cursor: pointer;
+    font-family: "Pragati Narrow", sans-serif;
+}
+
+.btn-cadastrar:hover {
+    color: rgb(237, 236, 170);
 }
 
 .btn-ja-tenho-conta {
@@ -102,7 +110,16 @@
     border: none;
     background-color: #00000000;
     cursor: pointer;
+    font-family: "Pragati Narrow", sans-serif;
+    margin-top: 7px;
 }
+
+.btn-ja-tenho-conta:hover {
+    color: #c0bcbc;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 10s ease;
+}
+
 
 .p-color-1 {
     color: yellow;
