@@ -22,6 +22,7 @@
   height: 35px;
   margin: 5px;
   color: yellow;
+  cursor: pointer;
 }
 
 .icon-instagram {
@@ -29,6 +30,7 @@
   width: 35px;
   height: 35px;
   margin: 5px;
+  cursor: pointer;
 }
 
 .icon-twitter {
@@ -37,6 +39,7 @@
   height: 35px;
   margin: 5px;
   color: yellow;
+  cursor: pointer;
 }
 
 
