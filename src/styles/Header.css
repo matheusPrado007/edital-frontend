@@ -54,17 +54,21 @@
 .header nav ul li a {
   text-decoration: none;
   color: #fff;
-  padding: 5px 10px; /* Adicionando espaçamento interno */
+  padding: 5px 10px;
+  /* Adicionando espaçamento interno */
 }
 
 .header nav ul li a:hover {
-  background-color: #000; /* Mudando a cor de fundo ao passar o mouse */
-  border-radius: 5px; /* Adicionando um pequeno arredondamento de borda */
+  background-color: #000;
+  /* Mudando a cor de fundo ao passar o mouse */
+  border-radius: 5px;
+  /* Adicionando um pequeno arredondamento de borda */
 }
 
 .header nav ul li a:hover,
 .header nav ul li a:hover {
-  border: 2px solid yellow; /* Mudando a cor da borda ao passar o mouse */
+  border: 2px solid yellow;
+  /* Mudando a cor da borda ao passar o mouse */
 }
 
 .menu-button {
@@ -200,7 +204,7 @@
     height: auto;
     background-color: #c3c3c384;
     border-radius: 100%;
-    padding:1px;
+    padding: 1px;
     max-width: 45px;
     margin-right: 7px;
     margin-left: 50px;
@@ -268,13 +272,13 @@
     margin-right: 50px;
     text-decoration: none;
   }
- 
+
   .logo {
     width: 100%;
     height: auto;
     background-color: #c3c3c384;
     border-radius: 100%;
-    padding:1px;
+    padding: 1px;
     max-width: 50px;
     margin-right: 4px;
     margin-left: 3px;
@@ -329,6 +333,7 @@
     font-size: 1.5rem;
     margin-left: 10px;
   }
+
   .titulo-esquerda {
     width: 100%;
     color: #333;
@@ -344,7 +349,7 @@
     height: auto;
     background-color: #c3c3c384;
     border-radius: 100%;
-    padding:1px;
+    padding: 1px;
     max-width: 40px;
     margin-right: 4px;
     margin-left: 3px;
@@ -414,11 +419,10 @@
     height: auto;
     background-color: #c3c3c384;
     border-radius: 100%;
-    padding:1px;
+    padding: 1px;
     max-width: 40px;
     margin-right: 4px;
     margin-left: 3px;
-    
+
   }
 }
-

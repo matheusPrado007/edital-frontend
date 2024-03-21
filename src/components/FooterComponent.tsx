@@ -1,9 +1,9 @@
-import React from 'react';
-import '../styles/Footer.css';
+import React from "react";
+import "../styles/Footer.css";
 
 const FooterComponent: React.FC = () => {
   return (
-    <section className='footer'>
+    <section className="footer">
       <div className="container-footer clearfix">
         <div className="footer-content">
           <p>&copy; Edital</p>

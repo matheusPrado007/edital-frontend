@@ -19,7 +19,7 @@
 }
 
 .container-home {
-    max-width: 1000px; 
+    max-width: 1000px;
     background-color: #000000;
     font-size: 1.3rem;
     display: flex;
@@ -69,14 +69,15 @@
 .input-top {
     margin-top: 45px;
 }
+
 .checkbox-field {
     background-color: #00000000;
     margin-top: 15px;
 }
 
 .check-input {
-    width: 15px; 
-    height: 15px; 
+    width: 15px;
+    height: 15px;
 }
 
 .checkbox-label {
@@ -105,8 +106,8 @@
 
 .p-color-1 {
     color: yellow;
-    font-size: 4rem; 
-    text-align: left; 
+    font-size: 4rem;
+    text-align: left;
     margin: 0;
     margin-left: 35px;
     font-family: "Anton", sans-serif;
@@ -114,18 +115,19 @@
 
 .p-color-2 {
     color: #ffffff;
-    font-size: 4rem; 
+    font-size: 4rem;
     text-align: left;
-    margin: 0; 
+    margin: 0;
     margin-left: 35px;
     font-family: "Anton", sans-serif;
+    display: flex;
 }
 
 .p-color-3 {
     color: #ffffff;
     font-size: 1rem;
     text-align: left;
-    margin: 0; 
+    margin: 0;
     margin-left: 35px;
     margin-top: 15px;
 }
@@ -142,7 +144,8 @@
     box-sizing: border-box;
     font-size: 0.9rem;
     border-radius: 35px;
-    padding-right: 0px; /* Adiciona espaço para a imagem */
+    padding-right: 0px;
+    /* Adiciona espaço para a imagem */
 }
 
 .search-icon {
@@ -202,12 +205,20 @@
 }
 
 
+.setas {
+    width: 100px;
+    height: 60px;
+
+}
 
 @media screen and (max-width: 768px) {
+    .setas {
+        transform: rotate(90deg);
+    }
 
     .main-container {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         justify-content: center;
         margin: auto;
         height: 700px;
@@ -233,7 +244,7 @@
 @media screen and (max-width: 480px) {
     .main-container {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         justify-content: center;
         margin: auto;
         height: 800px;
